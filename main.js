@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     
     form.addEventListener('submit',(evnt)=>{
         evnt.preventDefault();
+        if(usuario.value=='' ||password == ''){
+            saludo.innerHTML = `Ni el usuario ni la password pueden estar vacios`;
+        }
         saludo.innerHTML = `Hola ${usuario.value} recuerda que tu password es ${password.value}`;
         
         
