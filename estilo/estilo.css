@@ -75,9 +75,9 @@ nav ul {
   }
   form{
     display: grid;
-    min-height: 25vh;
+    min-height: 30vh;
     background-color: rgba(128, 128, 128, 0.226);
-    border-radius: 3px;
+    border-radius: 4px;
   }
   section {
     min-height: 45vh;
@@ -90,4 +90,5 @@ nav ul {
     color: rgb(15, 15, 14);
     background-color: rgba(127, 255, 212, 0.548);
   }
-  
+
+
