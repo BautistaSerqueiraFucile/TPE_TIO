@@ -1,0 +1,72 @@
+*{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background-image:url('https://cdn.pixabay.com/photo/2018/09/15/11/09/asphalt-3679117_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+nav{
+  display: flex;
+}
+h1{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  display:flex;
+  justify-content: center;
+}
+section{
+  display:flex;
+  justify-content:center;
+  margin-left: 50px;
+  min-height: 65vh;
+  align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 81px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+ul{
+  text-decoration: none;
+  display: flex;
+  list-style-type: none;
+}
+li a {
+  padding: 2px 7px 2px 7px;
+  color:black;
+  background-color: #eeeeee36;
+ 
+  text-decoration: none;
+}
+li a:hover{
+  background-color: #333333;
+  color: #ffffff;
+}
+input{
+  min-width: 35vh;
+  background-color: rgba(127, 255, 212, 0.342);
+}
+form{
+  display: grid;
+  min-height: 25vh;
+  background-color: rgba(128, 128, 128, 0.226);
+  border-radius: 3px;
+}
+section {
+  min-height: 45vh;
+  background-color: #33333321;
+  margin: 35px;
+
+}
+button{
+  margin-top: 15px;
+  color: rgb(15, 15, 14);
+  background-color: rgba(127, 255, 212, 0.548);
+}
